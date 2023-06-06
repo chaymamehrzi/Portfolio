@@ -18,7 +18,7 @@ const About = () => {
       <div className="about__content">
        <div className="about__cards">
         <article className='about__card'>
-          <FaAward className='about__icon'/>
+          <FaAward   style={{color: "#f9fafa",}} className='about__icon'/>
          <h5>Experience</h5>
          <small> Less Than 1 Year Working </small>
         </article>
@@ -28,6 +28,12 @@ const About = () => {
          <small> 10+ Completed</small>
         </article>
        </div>
+       <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ut sequi eos, atque sapiente dolorum rem, aspernatur tempore
+        adipisci aut omnis velit quod iusto nemo facilis eligendi quam illum nam ipsum.
+       </p>
+       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
 
     </div>
