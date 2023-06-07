@@ -26,23 +26,24 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
+    
 }
 
 .header__socials::after {
     content: "";
     width: "1px";
     height: 2rem;
-    background-color: var(--color-primary);
+    background: var(--color-primary);
 }
 
 .me{
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-white), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 40rem;
     left: calc(50% -12rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;

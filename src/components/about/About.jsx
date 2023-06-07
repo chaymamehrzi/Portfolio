@@ -20,7 +20,7 @@ const About = () => {
         <article className='about__card'>
           <FaAward   style={{color: "#f9fafa",}} className='about__icon'/>
          <h5>Experience</h5>
-         <small> Less Than 1 Year Working </small>
+         <small> Less Than 1 Year  </small>
         </article>
         <article className='about__card'>
           <VscFolderLibrary className='about__icon'/>
@@ -29,9 +29,11 @@ const About = () => {
         </article>
        </div>
        <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Ut sequi eos, atque sapiente dolorum rem, aspernatur tempore
-        adipisci aut omnis velit quod iusto nemo facilis eligendi quam illum nam ipsum.
+     Hello, I am Chayma Mehrzi, a passionate software engineering student specialzing in web development and web technolgies. Currently studying at ESPRIT , I have gained a valuable knowledge and practical experience in building web applications.
+     I am constantly exploring emerging web technologies to stay up-to-date with industry trends and best practices.
+     My courses at ESPRIT has provided me with a solid foundation in programming languages and helped me gain valuable experience in working with several frameworks with particiapting and working in concrete projects. 
+     I also see myself as an entrepreneur , I have honed my skilss by being actively involved in enactus , a non-profit organization, where i have gained valuable experience in project management , team work, problem-solving and pitching skills.
+     I am excited about utlizing my skilss and expertise to contribute to innovative projects and make a positive impact in the field of web development.
        </p>
        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
